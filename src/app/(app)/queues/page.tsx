@@ -191,15 +191,11 @@ export default function QueuesPage() {
           <h3 className="text-2xl font-bold text-[#133020] dark:text-white mb-2">
             {locale === "zh" ? "队列已全部清空" : "Queue is clear"}
           </h3>
-          <p className="text-sm text-[#666666] dark:text-white/70 max-w-md mx-auto leading-relaxed mb-6">
+          <p className="text-sm text-[#666666] dark:text-white/70 max-w-md mx-auto leading-relaxed">
             {locale === "zh"
               ? "所有待处理的手动提交与改动均已完成审核评估并录入展会库。"
               : "All exhibition submissions have been evaluated, reviewed, and published. No pending items require your attention."}
           </p>
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#F9F7F7] dark:bg-white/5 border border-[#D8D2C8] dark:border-white/15 text-xs text-[#046241] dark:text-[#52B788] font-semibold">
-            <span className="w-2 h-2 rounded-full bg-[#046241] dark:bg-[#52B788] animate-pulse" />
-            <span>{locale === "zh" ? "系统流水线监控中 · 一切就绪" : "Pipeline active · All systems operational"}</span>
-          </div>
         </div>
       ) : (
         /* UNIFIED EVENT CARD GRID VIEW FOR QUEUE ITEMS */

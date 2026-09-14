@@ -205,8 +205,8 @@ export default function EventsPage() {
             </h2>
           <p className="text-xs text-black dark:text-white/60 mt-0.5">
             {locale === "en"
-              ? `Showing ${pagination.totalCount} strategic tech exhibition records (fit score 3+)`
-              : `显示 ${pagination.totalCount} 条战略科技展会记录（适配分 3+）`}
+              ? `Showing ${pagination.totalCount} strategic tech exhibition records`
+              : `显示 ${pagination.totalCount} 条战略科技展会记录`}
           </p>
         </div>
 

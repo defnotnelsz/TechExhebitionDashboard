@@ -607,12 +607,6 @@ export default function EventScraperDashboard() {
         </div>
 
         <div className="flex items-center gap-3 text-xs">
-          <div className="flex items-center gap-1.5 px-2.5 py-1 bg-[#F9F7F7] border border-[#D8D2C8] rounded-full text-[#133020]">
-            <span className="w-2 h-2 rounded-full bg-[#046241] animate-pulse" />
-            <span className="font-semibold">
-              {locale === "zh" ? "引擎端口：5000" : "Engine Port: 5000"}
-            </span>
-          </div>
           {events.length > 0 && (
             <span className="font-semibold text-[#046241] bg-[#046241]/10 px-2.5 py-1 rounded-full">
               {locale === "zh"

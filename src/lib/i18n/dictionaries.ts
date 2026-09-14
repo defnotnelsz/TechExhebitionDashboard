@@ -155,7 +155,7 @@ export const DICTIONARIES = {
 
     // Events Page
     "events.title": "Exhibition records",
-    "events.subtitle": "Showing {count} strategic tech exhibition records (fit score 3+)",
+    "events.subtitle": "Showing {count} strategic tech exhibition records",
     "events.viewCards": "Cards",
     "events.viewTable": "Table",
     "events.addNew": "Add event",
@@ -469,7 +469,7 @@ export const DICTIONARIES = {
 
     // Events Page
     "events.title": "展会记录库",
-    "events.subtitle": "显示 {count} 条战略科技展会记录（适配分 3+）",
+    "events.subtitle": "显示 {count} 条战略科技展会记录",
     "events.viewCards": "卡片视图",
     "events.viewTable": "表格视图",
     "events.addNew": "+ 添加展会",
